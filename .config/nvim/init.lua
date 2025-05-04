@@ -62,7 +62,7 @@ vim.opt.visualbell = false -- Disable visual bell
 vim.cmd("syntax enable") -- Often enabled by default
 
 -- Set colorscheme (make sure 'slate' is installed)
-vim.cmd("colorscheme slate")
+vim.cmd("colorscheme habamax")
 
 -- Set background to dark (helps some colorschemes)
 vim.opt.background = "dark"
