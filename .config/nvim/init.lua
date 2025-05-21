@@ -97,7 +97,10 @@ vim.opt.laststatus = 1
 -- Shortcuts
 -- =========
 -- Map 'jk' in insert mode to Escape
-vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true, desc = "Escape insert mode" }) -- Added silent and desc
+vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true, desc = "Escape insert mode" })
+
+vim.keymap.set("n", "j", "gj", { noremap = true, silent = true, desc = "Move down" })
+vim.keymap.set("n", "k", "gk", { noremap = true, silent = true, desc = "Move up" })
 
 -- Setup lazy
 require("config.lazy")
